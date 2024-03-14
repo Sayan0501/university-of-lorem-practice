@@ -29,12 +29,45 @@
         .nav-adm{
           height: 12rem;
           padding: 50px;
-          margin-left: -120px;
+          margin-left: -65px;
         }
 
         .toggle-adm{
-          margin-left: 30px;
-          border: none;
+          margin-left: 130px;
+          
+        }
+      }
+      @media (min-width:576px){
+        .nav-adm{
+          height: 12rem;
+          padding: 50px;
+          margin-left: -100px;
+        }
+
+        .toggle-adm{
+          margin-left: 300px;
+        }
+      }
+      @media (min-width:768px){
+        .nav-adm{
+          height: 12rem;
+          padding: 50px;
+          margin-left: -280px;
+        }
+
+        .toggle-adm{
+          margin-left: 200px;
+        }
+      }
+      @media (min-width:810px){
+        .nav-adm{
+          height: 12rem;
+          padding: 50px;
+          margin-left: 350px;
+        }
+
+        .toggle-adm{
+          margin-left: 200px;
         }
       }
     </style>
@@ -50,18 +83,18 @@
           >UNIVERSITY OF <br /><br/>LOREM</a
         >
         <button
-          class="navbar-toggler"
+          class="navbar-toggler toggle-adm"
           type="button"
           data-toggle="collapse"
           data-target="#collapsibleNavbar"
         >
-          <span class="navbar-toggler-icon toggle-adm"></span>
+          <span class="navbar-toggler-icon "></span>
         </button>
         <div
           class="collapse navbar-collapse ml-xl-5 pl-xl-5"
           id="collapsibleNavbar"
         >
-          <ul class="navbar-nav">
+          <ul class="navbar-nav nav_ul">
             <li class="nav-item ml-xl-5 pl-xl-5 mt-3">
               <a class="nav-link text-white navcontent" href="../index.html"
                 >Home
@@ -70,7 +103,7 @@
 
             <li class="nav-item ml-xl-5 pl-xl-5">
               <a
-                class="nav-link text-white navconten mt-3"
+                class="nav-link text-white navcontent mt-3"
                 href="../about/about.html"
                 >About Us</a
               >
@@ -126,7 +159,7 @@
               class="form-horizontal ml-lg-5 pl-lg-5 pr-3 pr-lg-5 p-5"
               style="border: 0.5px solid black; border-radius: 20px"
             >
-              <div class="form_title mt-5 ml-lg-4">
+              <div class="form_title mt-md-5 ml-lg-4">
                 <h3><u>Account Information</u></h3>
               </div>
               <div class="form-group pt-lg-3">
@@ -138,7 +171,7 @@
                 >
                 <div class="col-sm-8 mt-3">
                   <select
-                    style="border-radius: 15px; height: 3rem; width: 20rem"
+                    style="border-radius: 10px; height: 3rem; width: 20rem"
                     class="text-center"
                   >
                     <option>Select one</option>
@@ -335,7 +368,7 @@
                   >
                 </li>
                 <li class="pt-2 mb-3" style="font-size: 22px">
-                  <a class="text-white" href="../student/student.html"
+                  <a class="text-white" href="../students/students.html"
                     >Student's Zone</a
                   >
                 </li>
